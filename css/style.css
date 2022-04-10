@@ -399,6 +399,7 @@ template {
 .nav-bar__links {
   color: inherit;
   text-decoration: none;
+  text-transform: uppercase;
   padding-left: 40px;
   font-style: normal;
   font-weight: 400;
@@ -476,4 +477,87 @@ template {
   font-size: 16px;
   line-height: 24px;
   color: #666666;
+}
+
+.photo {
+  padding-top: 60px;
+  padding-bottom: 65px;
+}
+
+.photo__img {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 25px;
+  padding-bottom: 24px;
+}
+
+.photo__block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.photo__blocks {
+  height: 481px;
+  width: 400px;
+}
+
+.photo-text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.photo-text__crumb {
+  margin: 0;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  color: #999999;
+  padding-bottom: 18px;
+  padding-top: 24px;
+  padding-left: 10px;
+}
+
+.photo-text__large {
+  font-family: 'Tenor Sans';
+  font-style: normal;
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+
+.photo-text__by {
+  font-family: 'Libre Franklin';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+
+.line__small {
+  position: absolute;
+  max-width: 1200px;
+  margin: auto;
+  height: 1px;
+  left: 0%;
+  right: 0%;
+  border: 1px solid #E6E6E6;
 }
