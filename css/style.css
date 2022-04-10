@@ -399,7 +399,6 @@ template {
 .nav-bar__links {
   color: inherit;
   text-decoration: none;
-  text-transform: uppercase;
   padding-left: 40px;
   font-style: normal;
   font-weight: 400;
@@ -413,4 +412,68 @@ template {
   left: 0%;
   right: 0%;
   border: 1px solid #E6E6E6;
+}
+
+.illustration {
+  padding-top: 60px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.illustration__img {
+  height: 474px;
+  width: 721px;
+}
+
+.illustration-texts {
+  height: 342px;
+  width: 480px;
+  padding-left: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.illustration-text__crumb {
+  margin: 0;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  color: #999999;
+}
+
+.illustration-text__by {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.illustration-text1 {
+  font-family: 'Tenor Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+}
+
+.illustration-text2 {
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
 }
