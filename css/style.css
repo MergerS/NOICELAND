@@ -515,6 +515,9 @@ template {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
 }
 
 .photo-text__crumb {
@@ -526,8 +529,6 @@ template {
   line-height: 12px;
   letter-spacing: 1px;
   color: #999999;
-  padding-bottom: 18px;
-  padding-top: 24px;
   padding-left: 10px;
 }
 
